@@ -33,6 +33,10 @@
     border: 1px solid #fff;
 }
 
+.select{
+    text-align: center;
+}
+
 .button{
     all: unset;
     border: 1px solid #fff;
