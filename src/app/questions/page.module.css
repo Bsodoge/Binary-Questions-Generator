@@ -94,12 +94,16 @@
 
 .answer{
     position: absolute;
-    top: -40px;
-    width: 200px;
+    top: -20px;
+    width: 300px;
 }
 
 @media screen and (max-width: 650px) {
     .question{
         flex-direction: column;
+    }
+    .answer{
+        top: -40px;
+        width: 200px;
     }
 }
