@@ -5,16 +5,19 @@ import { ChangeEvent, useState } from "react"
 import questionTypes from "./questionTypes.json"
 import styles from "./page.module.css"
 
-export default function QuestionSelection(){
+interface props {
+    generateQuestions : Function
+}
+
+export default function QuestionSelection({generateQuestions} : props){
     let [questionSettings, setQuestionSettings] = useState<string[]>([]);
     const updateSettings = (event : ChangeEvent<HTMLInputElement>): void => {
         const givenOption = event.target;
         if(questionSettings.includes(givenOption.id) && givenOption.checked === false){
-            setQuestionSettings(prev => prev.filter(option => option !== givenOption.id))
+            setQuestionSettings((prev : string[]) => prev.filter((option : string) => option !== givenOption.id))
         } else{
-            setQuestionSettings(prev => [...prev, givenOption.id]);
+            setQuestionSettings((prev : string[]) => [...prev, givenOption.id]);
         }
-        console.log(questionSettings);
     }
     return(
         <div className={styles.question_selection_container}>
@@ -25,7 +28,8 @@ export default function QuestionSelection(){
                     )
                 })
             }
-            <button className={styles.button}>Generate</button>
+            <button className={styles.button} onClick={() => generateQuestions(questionSettings)}>Generate</button>
+
         </div>
     )
 }

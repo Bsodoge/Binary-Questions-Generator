@@ -2,17 +2,17 @@
     {
         "id" : 0,
         "questionName" : "Decimal-Binary Conversions",
-        "questionID" : "decimalBinary"
+        "questionID" : "binaryDecimal"
     },
     {
         "id" : 1,
         "questionName" : "Hex-Binary Conversions",
-        "questionID" : "hexBinary"
+        "questionID" : "binaryHex"
     },
     {
         "id" : 2,
         "questionName" : "Binary Addition",
-        "questionID" : "binaryAdditon"
+        "questionID" : "binaryAddition"
     },
     {
         "id" : 3,
