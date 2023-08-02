@@ -5,16 +5,31 @@
   flex-direction: column;
   gap: 5rem;
   flex: 1;
+
+  --s: 76px; /* control the size */
+
+  --c: #000000;
+  --_g: conic-gradient(var(--c) 25%,#0000 0) 0 0;
+  background:
+    var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
+    var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
+    repeating-conic-gradient(#0000 0 25%,var(--c) 0 50%) 
+     var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
+    radial-gradient(50% 50%,#2eb044 98%,var(--c)) 
+     0 0/var(--s) var(--s);
+  
 }
 
 .main h1{
   font-size: 3rem;
   text-align: center;
+  text-shadow: -1px 0px #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000; 
 }
 
 .main button{
   all: unset;
   border: 1px solid #fff;
+  background-color: #000000;
   padding: 1rem 5rem;
 }
 
