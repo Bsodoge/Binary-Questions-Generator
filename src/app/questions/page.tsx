@@ -55,7 +55,7 @@ export default function Questions() {
         <main className={styles.main}>
             <h1 className={styles.h1}>Choose your questions</h1>
             {
-                generated ? <></>  : <h2>Select some options then press the generate button</h2>
+                generated ? <></>  : <h2 className={styles.select}>Select some options then press the generate button</h2>
             }
             <QuestionSelection generateQuestions={generateQuestions}/>
             {
