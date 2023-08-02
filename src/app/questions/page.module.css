@@ -98,12 +98,18 @@
     width: 300px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 990px) {
     .question{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 500px) {
     .answer{
         top: -40px;
         width: 200px;
+    }
+    .question{
+        gap: 3rem;
     }
 }
