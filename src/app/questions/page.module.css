@@ -63,7 +63,6 @@
     align-items: center;
     border: 1px solid #fff;
     padding: 20px;
-    flex: 1;
 }
 
 .question > * {
@@ -95,6 +94,12 @@
 
 .answer{
     position: absolute;
-    top: -20px;
+    top: -40px;
     width: 200px;
+}
+
+@media screen and (max-width: 650px) {
+    .question{
+        flex-direction: column;
+    }
 }
