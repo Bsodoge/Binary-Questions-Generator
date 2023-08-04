@@ -16,7 +16,6 @@ export default function Questions({questionNumber, givenQuestion, answer} : prop
     let [reveal, setReveal] = useState<boolean>(false);
     const checkAnswer = (userAnswer : string) => {
         if(userAnswer == answer){
-            console.log("correct");
             setCorrect(true);
         } else{
             setCorrect(false)

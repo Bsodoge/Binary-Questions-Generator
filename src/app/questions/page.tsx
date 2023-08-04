@@ -12,7 +12,6 @@ export default function Questions() {
         if(!questionSettings.length) return;
         setQuestions([]);
         for (let i = 0; i < 10; i++) {
-            console.log(questionSettings);
             const questionType = questionSettings[Math.floor(Math.random() * questionSettings.length)];
             switch (questionType) {
                 case "binaryDecimal":
