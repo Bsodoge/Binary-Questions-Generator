@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import QuestionSelection from "./questionSelection"
-import QuestionContainer from "./questionContainer"
+import QuestionSelection from "./QuestionSelection"
+import QuestionContainer from "./QuestionContainer"
 import styles from "./page.module.css"
 
 export default function Questions() {
