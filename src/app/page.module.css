@@ -6,7 +6,7 @@
   gap: 5rem;
   flex: 1;
 
-  --s: 76px; /* control the size */
+  --s: 76px; /* control the size */ /* from CSS-pattern.com */
 
   --c: #000000;
   --_g: conic-gradient(var(--c) 25%,#0000 0) 0 0;
