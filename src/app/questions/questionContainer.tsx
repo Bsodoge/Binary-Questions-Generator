@@ -9,9 +9,9 @@ export default function QuestionContainer({questions} : props){
     return(
         <div className={styles.question_container}>
             {
-                questions.map((newQuestion : any, i) => {
+                questions.map((newQuestion : any, i : number) => {
                     return (
-                        <Questions questionNumber={i + 1} givenQuestion={newQuestion.question} answer={newQuestion.answer} />
+                        <Questions key={i} questionNumber={i + 1} givenQuestion={newQuestion.question} answer={newQuestion.answer} />
                     )
                 })
             }
