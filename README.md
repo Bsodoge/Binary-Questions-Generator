@@ -16,4 +16,5 @@ yarn dev
 ```
 Open on the localhost provided and see the result.
 
-Contributions are welcome.
+
+## Contributions are welcome.
