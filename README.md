@@ -1,5 +1,5 @@
 # Binary-Questions-Generator
-A website that allows you to easily practice binary questions.
+A website that allows you to easily practice binary questions like twos compliment, binary to hexadecimal, decimal to binary etc.
  
 # Run locally 
 
