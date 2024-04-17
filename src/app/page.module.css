@@ -3,21 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 5rem;
-  flex: 1;
-
-  --s: 76px; /* control the size */ /* from CSS-pattern.com */
-
-  --c: #000000;
-  --_g: conic-gradient(var(--c) 25%,#0000 0) 0 0;
-  background:
-    var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
-    var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
-    repeating-conic-gradient(#0000 0 25%,var(--c) 0 50%) 
-     var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
-    radial-gradient(50% 50%,#2eb044 98%,var(--c)) 
-     0 0/var(--s) var(--s);
-  
+  gap: 2rem;
+  flex: 1; 
+  text-align: center;
 }
 
 .main h1{
