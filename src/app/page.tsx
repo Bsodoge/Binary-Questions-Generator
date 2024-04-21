@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.text_container}>
         <h1>Binary Question Generator</h1>
         <p>The best way to practice binary related questions for GCSE Computer Science, A Level Computer Science and beyond.</p>
-        <Link href="/questions"><button>Start now</button></Link>
+        <Link href="/questions" title="Start generating binary questions now!"><button>Start now</button></Link>
       </div>
       <MatrixEffect/>
     </main>
