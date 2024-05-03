@@ -18,7 +18,7 @@ export default function Home() {
               <li>Binary Subtraction</li>
               <li>Binary Multiplication</li>
               <li>Binary Fractions</li>
-              <li>Two's Compliment Conversions</li>
+              <li>Two&apos;s Compliment Conversions</li>
               <li>Binary Mantissa and Exponent Questions</li>
             </ul> 
           </div>
