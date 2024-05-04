@@ -59,7 +59,13 @@
   font-size: 1.125rem;
 }
 
-@media (max-width: 1580px) {
+@media (max-width: 1215px) {
+  .question_types_container{
+    visibility: collapse;
+  }
+}
+
+@media (max-width: 968px) {
   .main{
     flex-direction: column;
     gap: 1rem;

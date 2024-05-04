@@ -7,7 +7,7 @@ export default function MatrixEffect(){
     const setCanvasHeightDimensions = () => {
         const navbarHeight : number = 80;
         canvas.current!.height = window.innerHeight - navbarHeight;
-        if(window.innerWidth <= 1580) canvas.current!.width = window.innerWidth;
+        if(window.innerWidth <= 968) canvas.current!.width = window.innerWidth;
         else canvas.current!.width = (window.innerWidth / 2) - 250;
     }
     const playEffect = () => {
