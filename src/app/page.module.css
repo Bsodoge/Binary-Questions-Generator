@@ -60,6 +60,9 @@
 }
 
 @media (max-width: 1215px) {
+  .page_information_container{
+    gap: 0;
+  }
   .question_types_container{
     visibility: collapse;
   }
