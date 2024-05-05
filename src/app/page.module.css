@@ -64,7 +64,7 @@
     gap: 0;
   }
   .question_types_container{
-    visibility: collapse;
+    display: none;
   }
 }
 
